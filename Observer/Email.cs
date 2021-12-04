@@ -26,7 +26,7 @@ namespace Design_Patterns_Assignment
         public void NotifyObserver()
         {
             if(Observers.Count > 0)
-            {
+    {
                 foreach (var observer in Observers)
                 {
                     observer.Update(EmailContent);

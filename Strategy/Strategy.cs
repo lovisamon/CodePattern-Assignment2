@@ -6,6 +6,7 @@ namespace Design_Patterns_Assignment
     {
         internal static void Run()
         {
+            // Refactor this code so that it uses the strategy Pattern
             Console.WriteLine("Strategy");
             var message = "This is the message";
 

@@ -10,6 +10,7 @@ namespace Design_Patterns_Assignment
     {
         internal static void Run()
         {
+            // Refactor this code so that it uses the Observer Pattern
             Console.WriteLine("Observer");
             Email email = new Email();
             email.RegisterObserver(new EmailWatcher());

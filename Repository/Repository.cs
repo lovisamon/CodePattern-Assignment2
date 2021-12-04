@@ -8,6 +8,7 @@ namespace Design_Patterns_Assignment
     {
         internal static void Run()
         {
+            // Refactor this code so that it uses the Repository Pattern
             Console.WriteLine("Repository");
             var data = DataRepository.GetData();
             var customer = DataRepository.GetCustomer();
